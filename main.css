@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body { /* this applies the characteristics to html and body*/
+	height: 100%;
+	overflow: none;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Roboto";
+	background-color: rgb(217, 208, 237); /*colorpicker*/
+}
+
+div{ /*selecting all of the div in html page*/
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align:middle; /* centers */
+}
+
+div#top-left {
+	width: 50%;
+	min-height: 60%;
+	background-image:url('IMG_0111.JPG');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div#top-right{
+	width:50%;
+	min-height: 60%;
+	padding: 5% 8%; /*space on the inside*/
+	/*padding order is top, left, bottom, right*/
+	color: rgb(83, 88, 95);
+}
+
+div#bottom{
+	width: 100%;
+	min-height:40%;
+	padding:3% 20%;
+	color: rgb(220, 222, 224);
+	background-color: rgb(40,40,40);
+}
+
+div#bottom-left{
+	width:50%;
+	vertical-align: top;
+}
+
+div#bottom-right {
+	width: 30%;
+	margin-left: 20%; /*extra 20% of width is the padding*/
+	vertical-align: top;
+}
+
+h1{
+	font-size: 45px;
+	font-weight: bold; /*could also write "700"*/
+	margin-bottom: 20px
+	/* could also write margin: 0 0 20px 0; */
+}
+
+h2{
+	font-size: 35px;
+	margin-bottom: 15px;
+
+}
+
+p{/* for text written inside <p></p>*/
+	font-size: 22px;
+	font-weight:lighter; /* aka 300 */
+	line-height: 1.4; /*spacing...2 is double*/
+	margin: 0;
+
+}
+
+a{ /*links are a tags*/
+	text-decoration: none; /*gets rid of the underline on links*/
+	font-weight:bold;
+	color:rgb(3, 203, 235);
+}
+
